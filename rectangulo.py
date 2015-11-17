@@ -1,0 +1,13 @@
+class rectangulo:
+	def __init__(self, x, y):
+		self.x = x
+		self.y = y
+
+	def area(self):
+		return self.x * self.y
+
+# ejemplo.py
+from rectangulo import rectangulo
+
+x = rectangulo(1, 2)
+print x.area()
